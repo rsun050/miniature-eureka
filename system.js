@@ -37,9 +37,10 @@ function write_passage(paragraphs, clear) {
 }
 
 function write_choices(choices) {
-	if(choices === undefined) return;
+	let no_choices = false;
+	if(choices === undefined) no_choices = true;
 	for (let i = 1; i <= 15; i++) {
-		if(choices[i] === undefined) {
+		if(no_choices || choices[i] === undefined) {
 			// default choice :P
 			option_texts[i].innerText = " ";
 			options[i].disabled = true;
