@@ -1,0 +1,30 @@
+/** https://colorffy.com/dark-theme-generator?colors=7D0A4B-121212 */
+:root {
+	/** Base colors */
+	--clr-dark-a0: #000000;
+	--clr-light-a0: #ffffff;
+
+	/** Theme primary colors */
+	--clr-primary-a0: #7d0a4b;
+	--clr-primary-a10: #8d305d;
+	--clr-primary-a20: #9d4b6f;
+	--clr-primary-a30: #ac6483;
+	--clr-primary-a40: #bb7e96;
+	--clr-primary-a50: #c997aa;
+
+	/** Theme surface colors */
+	--clr-surface-a0: #121212;
+	--clr-surface-a10: #282828;
+	--clr-surface-a20: #3f3f3f;
+	--clr-surface-a30: #575757;
+	--clr-surface-a40: #717171;
+	--clr-surface-a50: #8b8b8b;
+
+	/** Theme tonal surface colors */
+	--clr-surface-tonal-a0: #1d1518;
+	--clr-surface-tonal-a10: #322a2d;
+	--clr-surface-tonal-a20: #484144;
+	--clr-surface-tonal-a30: #60595b;
+	--clr-surface-tonal-a40: #787274;
+	--clr-surface-tonal-a50: #928d8f;
+}
